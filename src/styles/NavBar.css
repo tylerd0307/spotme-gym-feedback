@@ -1,0 +1,66 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 60px;
+  background-color:#3B3B3B;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 16px;
+  box-sizing: border-box;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  overflow: hidden;
+}
+
+.navbar-left .logo {
+  font-size: 1.5rem;
+  color: #ffffff;
+  white-space: nowrap;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+
+.signin-btn,
+.signout-btn {
+  background-color: #FF7700;
+  color: white;
+  padding: 6px 10px;
+  font-size: 0.9rem;
+  white-space: nowrap;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  max-width: 100%;
+}
+
+.signin-btn:hover,
+.signout-btn:hover {
+  background-color: #0b5ed7;
+}
+
+.username {
+  color: #ffffff;
+  font-size: 1rem;
+  white-space: nowrap;
+}
+
+.profile-pic-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.profile-pic {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
